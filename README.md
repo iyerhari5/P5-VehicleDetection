@@ -18,12 +18,14 @@ The goals / steps of this project are the following:
 [image6]: ./output_images/heat-map.png
 [image7]: ./output_images/output-video.gif
 [image8]: ./output_images/output-video-with-lanes.gif
+[image9]: ./output_images/car/jpg
 
 
 ## Feature Extraction
 
 In order to train the classifier, we first need to extract some features from the images. In this project we use the Histogram of Oriented Gradients (HOG),  binned color, and color histogram features. The HOG feature try to capture the edge information from the image that essentially encodes the shape of the object we are triyng to classify. The binned color image encodes both the color and shape of the object. The color histogram feature tries to capture the color information of the objects being classified. Figure below shows a sample image and the extracted HOG features.
 
+![alt text][image9]
 ![alt text][image1]
 
 After experimenting with different color transforms and spatial parameters, the final parameters used for the feature extraction are:
