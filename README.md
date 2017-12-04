@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 [image6]: ./output_images/heat-map.png
 [image7]: ./output_images/output-video.gif
 [image8]: ./output_images/output-video-with-lanes.gif
-[image9]: ./output_images/car/jpg
+[image9]: ./output_images/car.jpg
 
 
 ## Feature Extraction
